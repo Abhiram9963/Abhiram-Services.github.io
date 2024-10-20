@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GNI Student Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        body {
+            background-color: rgb(1, 1, 42);
+            color: white;
+            font-family: "Fira Sans Condensed", sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 140px;
+            border-radius: 15px;
+            border: 1px solid violet;
+            box-shadow: 0 4px 8px violet;
+        }
+
+        header a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .left {
+            font-size: 2rem;
+            width: 130px;
+            height: 60px;
+            background-color: purple;
+            text-align: center;
+            border: 1px solid white;
+            border-radius: 20px;
+        }
+
+        .left:hover {
+            box-shadow: 0 4px 10px 2px white;
+        }
+
+        .right {
+            font-size: 20px;
+            width: 140px;
+            height: 30px;
+            background-color: purple;
+            text-align: center;
+            border: 1px solid white;
+            border-radius: 20px;
+        }
+
+        .right:hover {
+
+            box-shadow: 0 4px 10px 2px white;
+        }
+
+        .mid {
+            font-size: 20px;
+            width: 80px;
+            height: 30px;
+            background-color: #aaa;
+            text-align: center;
+            border: 2px solid white;
+            border-radius: 20px;
+        }
+
+        .mid:hover {
+            box-shadow: 0 4px 10px 2px white;
+        }
+
+        .info {
+            font-size: small;
+            text-decoration: underline;
+        }
+
+        .exam_title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            /* To allow the boxes to wrap */
+            gap: 20px;
+            /* Spacing between boxes */
+            justify-content: center;
+            /* Center horizontally */
+            margin: 20px;
+            padding-bottom: 35px;
+            /* Center vertically and add margin */
+            max-width: 100%;
+            /* Max width of the container */
+        }
+
+        .rectangle-box {
+            width: 300px;
+            /* Width of the box */
+            height: 130px;
+            /* Height of the box */
+            background-color: rgb(1, 1, 42);
+            /* Background color of the box */
+            border: 1px solid white;
+            /* Border color and thickness */
+            border-radius: 10px;
+            /* Rounded corners */
+            display: flex;
+            /* Flexbox to center content */
+            align-items: center;
+            /* Center vertically */
+            justify-content: center;
+            /* Center horizontally */
+            /* Add shadow for depth */
+            text-align: center;
+            /* Center text inside the box */
+            font-size: 18px;
+            /* Font size of the text */
+            font-weight: bold;
+            /* Bold text */
+            color: white;
+            /* Text color */
+        }
+
+        .rectangle-box:hover {
+
+            /* Change background color on hover */
+            border-color: white;
+            /* Change border color on hover */
+            box-shadow: 0 6px 12px gray;
+            /* Increase shadow on hover */
+            transform: translateY(-5px);
+            /* Slightly move up on hover */
+            transition: all 0.3s ease;
+            /* Smooth transition for hover effects */
+        }
+
+        main a {
+            text-decoration: none;
+            color: white;
+        }
+
+        footer {
+            width: 100%;
+            background-color: gainsboro;
+            color: black;
+            height: 40vh;
+        }
+
+        .rights {
+            padding: 30px;
+            padding-bottom: 0px;
+            text-align: center;
+        }
+
+        .media {
+            padding-top: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .media div {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .media a {
+            text-decoration: none;
+        }
+
+        img {
+            width: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><a href="contact.html">
+                    Abhiram<p class="info"> info..<p></a>
+            </div>
+            <div class="mid"><a href="index.html">HOME</a></div>
+
+            <div class="right"><a href="events.html">Events @ GNI</a></div>
+        </nav>
+    </header>
+    <main>
+        <div class="exam_title">
+            <h1>Competitive Exams</h1>
+        </div>
+        <div class="container">
+            <div class="rectangle-box"><a href="">
+                    <h3>GATE / GRE</h3>
+                </a> </div>
+            <div class="rectangle-box"><a href="">
+                    <h3>CAT / GMAT</h3>
+                </a></div>
+            <div class="rectangle-box"><a href="">
+                    <h3>Govt Exams</h3>
+                </a></div>
+        </div>
+    </main>
+    <footer>
+        <div class="rights">
+            <p>&copy;Abhiram Services. All rights are reserved.</p>
+            <p>Contact: abhi1scientist@gmail.com</p>
+        </div>
+        <div class="media">
+            <div>
+                <img src="instagram.png.png" alt="">
+                <p><a href="">Instagram</a></p>
+            </div>
+            <div><img src="youtube.png.png" alt="">
+                <p><a href="">YouTube</a></p>
+            </div>
+            <div><img src="twitter.png.png" alt="">
+                <p><a href="">Twitter</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
